@@ -1,4 +1,4 @@
-Symfony Clean Template
+Install Symfony 5 with PHP 7.4 and MySQL 8 with Docker
 ===
 
 ### build project
@@ -6,24 +6,17 @@ Symfony Clean Template
 docker-compose up --build -d
 ```
 
-### enter into php container
+### open container
 ```
-docker exec -it symfony-app-php-cli bash
+docker exec -it symfony-app-php bash
 ```
 
 ### install Symfony
 ```
-composer create-project symfony/website-skeleton app
+composer create-project symfony/website-skeleton .
 ```
 
-### afterinstallation enter all these commands
+### open app in the browser
 ```
-mv /symfony/app/* /symfony
-mv /symfony/app/.* /symfony
-rm -Rf app
-```
-
-### run server and app
-```
-php -S localhost:8081
+http://127.0.0.1:8081/
 ```
