@@ -1,4 +1,4 @@
-Install Symfony5 with PHP7.4 and MySQL8 with Docker
+Symfony5, PHP7.4, MySQL8 with Docker
 ===
 
 **build project**
