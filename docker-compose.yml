@@ -5,7 +5,7 @@ services:
     build:
       context: ./docker/nginx
     volumes:
-      - ./app:/symfony
+      - ./app:/app
     container_name: ${PROJECT_NAME}-nginx
     restart: always
     ports:
@@ -15,7 +15,7 @@ services:
     build:
       context: ./docker/php
     volumes:
-      - ./app:/symfony
+      - ./app:/app
     restart: always
     container_name: ${PROJECT_NAME}-php
     depends_on:

@@ -7,7 +7,7 @@ docker-compose up --build -d
 ```
 **open container**
 ```
-docker exec -it symfony-app-php bash
+docker exec -it s5-app-php bash
 ```
 
 **install Symfony**
