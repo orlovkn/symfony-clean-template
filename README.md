@@ -15,7 +15,12 @@ docker exec -it s5-app-php bash
 composer create-project symfony/website-skeleton .
 ```
 
-**open app in the browser**
+**open app in browser**
 ```
-http://127.0.0.1:8081/
+127.0.0.1:8080
+```
+
+**connect your database**
+```
+DATABASE_URL="mysql://admin:secret@s5-app-mysql:3306/s5_db?serverVersion=8"
 ```
