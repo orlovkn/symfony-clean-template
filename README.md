@@ -1,4 +1,4 @@
-Symfony5, PHP7.4, MySQL8 with Docker
+Nginx, PHP7.4, MySQL8 with Docker
 ===
 
 **build project**
